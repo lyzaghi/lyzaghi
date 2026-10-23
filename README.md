@@ -1,39 +1,48 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lyzaghi/vlikeon/main/branding/vlikeon/png/display-1024.png">
-  <img src="https://raw.githubusercontent.com/lyzaghi/vlikeon/main/branding/vlikeon/png/light-1024.png" width="144" alt="Vlikeon Browser — Open View neon mark">
-</picture>
+<p align="center">
+  <a href="https://github.com/lyzaghi/vlikeon">
+    <img src="https://raw.githubusercontent.com/lyzaghi/vlikeon/main/branding/vlikeon/github/banner.svg" width="100%" alt="Vlikeon Browser — Browse. Play. Keep your progress.">
+  </a>
+</p>
 
-# Vlike · @lyzaghi
+# Son Dao · Vlike
 
-Building open-source browser and gaming infrastructure at **Vlike**.
+I build open-source browser and gaming software under **Vlike**. My main project
+is **[Vlikeon Browser](https://github.com/lyzaghi/vlikeon)**, a Chromium-first gaming
+browser bringing the web, a game library and save workflows into one workspace.
 
-My current project is **[Vlikeon Browser](https://github.com/lyzaghi/vlikeon)** —
-an experimental Chromium-first gaming browser exploring a unified game hub,
-isolated native runtimes, save management and remote-play workflows.
+## Featured project — Vlikeon Browser
 
-**Gaming Superbrowser by Vlike.**
+**Browse. Play. Keep your progress.**
 
-## Current focus
+Vlikeon explores a shared Game Hub, permission-scoped native and Web runtimes,
+local save recovery, encrypted synchronization and remote-play coordination.
+Its architecture spans Rust, C++, JavaScript and platform-specific integrations.
 
-- Browser-to-native capability and lifecycle boundaries.
-- Save ownership, recovery and encrypted synchronization.
-- Reproducible source preparation and dependency provenance.
-- Clear separation between authored source and verified behavior.
+A standalone Windows Game Hub demo is available. A Windows x64 Chromium
+development build has completed its recorded build and integrity checks;
+full-browser runtime, device and production-release qualification remain open.
 
-Vlikeon is in source development. It has not completed its consolidated build,
-device or security qualification. I welcome focused technical review and
-well-scoped contributions toward a verified experimental release.
-
-## Explore the project
-
-| Start here | Link |
+| Explore | Link |
 | --- | --- |
-| Project and source | [Vlikeon Browser](https://github.com/lyzaghi/vlikeon) |
-| Current state | [Public status](https://github.com/lyzaghi/vlikeon/blob/main/docs/PUBLIC_STATUS.md) |
-| Work ahead | [Roadmap](https://github.com/lyzaghi/vlikeon/blob/main/ROADMAP.md) |
-| Contribute | [Contribution guide](https://github.com/lyzaghi/vlikeon/blob/main/CONTRIBUTING.md) |
-| Tiếng Việt | [Giới thiệu dự án](https://github.com/lyzaghi/vlikeon/blob/main/README.vi.md) |
+| Project overview & source | [Vlikeon Browser](https://github.com/lyzaghi/vlikeon) |
+| Try the technical demo | [Windows demo guide](https://github.com/lyzaghi/vlikeon/blob/main/docs/PLAYABLE_DEMO.md) |
+| Understand the design | [Architecture](https://github.com/lyzaghi/vlikeon/blob/main/docs/ARCHITECTURE.md) |
+| See the evidence | [Public status](https://github.com/lyzaghi/vlikeon/blob/main/docs/PUBLIC_STATUS.md) |
+| Find a contribution | [Roadmap](https://github.com/lyzaghi/vlikeon/blob/main/ROADMAP.md) · [Issues](https://github.com/lyzaghi/vlikeon/issues) |
 
-Original project code uses Apache-2.0, with existing component and third-party
-license exceptions preserved. No release, adoption metric or external
-sponsorship is implied by this profile.
+## What I care about
+
+- Clear ownership and permission boundaries between browser and native code.
+- Progress that can be preserved, recovered and moved with the user's consent.
+- Reproducible builds and traceable dependency provenance.
+- Technical claims grounded in recorded evidence.
+
+## Collaborate
+
+I welcome focused contributions and technical discussions about browser
+integration, runtime lifecycles, game tooling, accessibility and build reliability.
+Start with the [contribution guide](https://github.com/lyzaghi/vlikeon/blob/main/CONTRIBUTING.md)
+or open a [project issue](https://github.com/lyzaghi/vlikeon/issues).
+For sensitive findings, use the [security reporting policy](https://github.com/lyzaghi/vlikeon/blob/main/SECURITY.md).
+
+<p align="center"><strong>Vlikeon Browser</strong> · Gaming Superbrowser by Vlike</p>
